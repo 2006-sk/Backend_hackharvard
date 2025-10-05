@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScamShield AI - WebSocket Notify Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .connected { background-color: #d4edda; color: #155724; }
+        .disconnected { background-color: #f8d7da; color: #721c24; }
+        .connecting { background-color: #fff3cd; color: #856404; }
+        .message {
+            background-color: #e9ecef;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border-left: 4px solid #007bff;
+        }
+        .error { border-left-color: #dc3545; }
+        .success { border-left-color: #28a745; }
+        .warning { border-left-color: #ffc107; }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover { background-color: #0056b3; }
+        button:disabled { background-color: #6c757d; cursor: not-allowed; }
+        #messages {
+            max-height: 400px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔌 ScamShield AI - WebSocket Notify Test</h1>
+        
+        <div id="status" class="status disconnected">Disconnected</div>
+        
+        <div>
+            <button id="connectBtn" onclick="connect()">Connect</button>
+            <button id="disconnectBtn" onclick="disconnect()" disabled>Disconnect</button>
+            <button id="testBtn" onclick="sendTestMessage()" disabled>Send Test Message</button>
+            <button id="clearBtn" onclick="clearMessages()">Clear Messages</button>
+        </div>
+        
+        <h3>📨 Messages:</h3>
+        <div id="messages"></div>
+        
+        <h3>📊 Statistics:</h3>
+        <div id="stats">
+            <p>Messages received: <span id="messageCount">0</span></p>
+            <p>Connection time: <span id="connectionTime">0</span> seconds</p>
+        </div>
+    </div>
+
+    <script>
+        let ws = null;
+        let messageCount = 0;
+        let startTime = null;
+        let intervalId = null;
+
+        function updateStatus(status, className) {
+            const statusDiv = document.getElementById('status');
+            statusDiv.textContent = status;
+            statusDiv.className = `status ${className}`;
+        }
+
+        function addMessage(message, type = 'message') {
+            const messagesDiv = document.getElementById('messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${type}`;
+            
+            const timestamp = new Date().toLocaleTimeString();
+            messageDiv.innerHTML = `
+                <strong>[${timestamp}]</strong> ${message}
+            `;
+            
+            messagesDiv.appendChild(messageDiv);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+            messageCount++;
+            document.getElementById('messageCount').textContent = messageCount;
+        }
+
+        function updateConnectionTime() {
+            if (startTime) {
+                const elapsed = Math.floor((Date.now() - startTime) / 1000);
+                document.getElementById('connectionTime').textContent = elapsed;
+            }
+        }
+
+        function connect() {
+            const wsUrl = 'wss://submammary-correlatively-irma.ngrok-free.dev/notify';
+            
+            updateStatus('Connecting...', 'connecting');
+            addMessage(`Connecting to: ${wsUrl}`, 'message');
+            
+            ws = new WebSocket(wsUrl);
+            
+            ws.onopen = function(event) {
+                updateStatus('Connected', 'connected');
+                addMessage('✅ WebSocket connection established!', 'success');
+                
+                document.getElementById('connectBtn').disabled = true;
+                document.getElementById('disconnectBtn').disabled = false;
+                document.getElementById('testBtn').disabled = false;
+                
+                startTime = Date.now();
+                intervalId = setInterval(updateConnectionTime, 1000);
+            };
+            
+            ws.onmessage = function(event) {
+                try {
+                    const data = JSON.parse(event.data);
+                    addMessage(`📥 Received: ${JSON.stringify(data, null, 2)}`, 'success');
+                } catch (e) {
+                    addMessage(`📥 Received (raw): ${event.data}`, 'message');
+                }
+            };
+            
+            ws.onclose = function(event) {
+                updateStatus('Disconnected', 'disconnected');
+                addMessage(`❌ Connection closed. Code: ${event.code}, Reason: ${event.reason}`, 'error');
+                
+                document.getElementById('connectBtn').disabled = false;
+                document.getElementById('disconnectBtn').disabled = true;
+                document.getElementById('testBtn').disabled = true;
+                
+                if (intervalId) {
+                    clearInterval(intervalId);
+                    intervalId = null;
+                }
+                startTime = null;
+            };
+            
+            ws.onerror = function(error) {
+                updateStatus('Error', 'disconnected');
+                addMessage(`❌ WebSocket error: ${error}`, 'error');
+            };
+        }
+
+        function disconnect() {
+            if (ws) {
+                ws.close();
+                ws = null;
+            }
+        }
+
+        function sendTestMessage() {
+            if (ws && ws.readyState === WebSocket.OPEN) {
+                const testMessage = {
+                    type: 'test',
+                    message: 'Testing WebSocket connection from browser',
+                    timestamp: new Date().toISOString()
+                };
+                
+                ws.send(JSON.stringify(testMessage));
+                addMessage(`📤 Sent: ${JSON.stringify(testMessage)}`, 'message');
+            } else {
+                addMessage('❌ WebSocket not connected', 'error');
+            }
+        }
+
+        function clearMessages() {
+            document.getElementById('messages').innerHTML = '';
+            messageCount = 0;
+            document.getElementById('messageCount').textContent = '0';
+        }
+
+        // Auto-connect on page load
+        window.onload = function() {
+            addMessage('🚀 ScamShield AI WebSocket Test Page Loaded', 'message');
+            addMessage('Click "Connect" to start testing WebSocket notifications', 'message');
+        };
+    </script>
+</body>
+</html>

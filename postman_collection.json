@@ -1,0 +1,497 @@
+{
+	"info": {
+		"_postman_id": "scamshield-ai-collection",
+		"name": "ScamShield AI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Health & Root",
+			"item": [
+				{
+					"name": "GET /",
+					"request": {
+						"method": "GET",
+						"url": "{{baseUrl}}/"
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response is HTML', () => pm.response.to.have.header('content-type', 'text/html; charset=utf-8'));"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "GET /health",
+					"request": {
+						"method": "GET",
+						"url": "{{baseUrl}}/health"
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response body is ok', () => pm.expect(pm.response.json().ok).to.be.true);"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Twilio",
+			"item": [
+				{
+					"name": "POST /voice",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/voice"
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response is XML (TwiML)', () => pm.response.to.have.header('content-type', 'application/xml'));",
+									"pm.test('TwiML contains Start/Stream', () => pm.expect(pm.response.text()).to.include('<Start>'));"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Audio Processing",
+			"item": [
+				{
+					"name": "POST /transcribe",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/transcribe/",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"audio_data\": \"base64...\",\n  \"sample_rate\": 8000\n}"
+						}
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response has transcript', () => pm.expect(pm.response.json()).to.have.property('transcript'));"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "POST /analyze",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/analyze/",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"text\": \"This is the IRS calling about your tax debt. You need to pay immediately or face arrest.\"\n}"
+						}
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response has analysis', () => pm.expect(pm.response.json()).to.have.property('analysis'));"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "POST /predict",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/predict/",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"text\": \"This is the IRS calling about your tax debt. You need to pay immediately or face arrest.\"\n}"
+						}
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response has prediction', () => pm.expect(pm.response.json()).to.have.property('prediction'));",
+									"pm.test('response has risk_band', () => pm.expect(pm.response.json()).to.have.property('risk_band'));"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "POST /test_transcribe",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/test_transcribe/",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"text\": \"This is the IRS calling about your tax debt. You need to pay immediately or face arrest.\"\n}"
+						}
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response has transcript', () => pm.expect(pm.response.json()).to.have.property('transcript'));",
+									"pm.test('response has prediction', () => pm.expect(pm.response.json()).to.have.property('prediction'));",
+									"pm.test('response has risk_band', () => pm.expect(pm.response.json()).to.have.property('risk_band'));"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "API - Calls & History",
+			"item": [
+				{
+					"name": "GET /api/calls",
+					"request": {
+						"method": "GET",
+						"url": "{{baseUrl}}/api/calls"
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response is array', () => pm.expect(pm.response.json()).to.be.an('array'));"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "GET /api/calls/{session_id}/transcripts",
+					"request": {
+						"method": "GET",
+						"url": "{{baseUrl}}/api/calls/{{session_id}}/transcripts"
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response is array', () => pm.expect(pm.response.json()).to.be.an('array'));"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "GET /api/risk-summary",
+					"request": {
+						"method": "GET",
+						"url": "{{baseUrl}}/api/risk-summary"
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response has summary', () => pm.expect(pm.response.json()).to.have.property('summary'));"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "POST /api/calls/{session_id}/start",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/api/calls/{{session_id}}/start",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"stream_sid\": \"{{stream_sid}}\"\n}"
+						}
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response has success', () => pm.expect(pm.response.json()).to.have.property('success'));"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "POST /api/calls/{session_id}/end",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/api/calls/{{session_id}}/end",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"final_risk_score\": 0.85,\n  \"risk_band\": \"HIGH\",\n  \"duration_seconds\": 120.5\n}"
+						}
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response has success', () => pm.expect(pm.response.json()).to.have.property('success'));"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "POST /api/calls/{session_id}/disconnect",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/api/calls/{{session_id}}/disconnect"
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response has success', () => pm.expect(pm.response.json()).to.have.property('success'));",
+									"pm.test('response has message', () => pm.expect(pm.response.json()).to.have.property('message'));"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Utils",
+			"item": [
+				{
+					"name": "GET /active-stream",
+					"request": {
+						"method": "GET",
+						"url": "{{baseUrl}}/active-stream"
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "R2 Storage",
+			"item": [
+				{
+					"name": "GET /r2/check",
+					"request": {
+						"method": "GET",
+						"url": "{{baseUrl}}/r2/check"
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response has status', () => pm.expect(pm.response.json()).to.have.property('status'));"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "POST /r2/convo/{convo_id}",
+					"request": {
+						"method": "POST",
+						"url": "{{baseUrl}}/r2/convo/{{convo_id}}",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"chunk_id\": \"part1\",\n  \"data\": \"Hello world, this is a test transcript\",\n  \"timestamp\": \"2024-01-01T00:00:00Z\",\n  \"metadata\": {\n    \"call_duration\": 120,\n    \"phone_number\": \"+1234567890\"\n  }\n}"
+						}
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response has status ok', () => pm.expect(pm.response.json().status).to.eql('ok'));"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "GET /r2/convo/{convo_id}",
+					"request": {
+						"method": "GET",
+						"url": "{{baseUrl}}/r2/convo/{{convo_id}}"
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response has data', () => pm.expect(pm.response.json()).to.have.property('data'));"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "PUT /r2/convo/{convo_id}/risk",
+					"request": {
+						"method": "PUT",
+						"url": "{{baseUrl}}/r2/convo/{{convo_id}}/risk",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"risk_score\": 85.2,\n  \"risk_band\": \"HIGH\",\n  \"prediction\": \"scam\",\n  \"timestamp\": \"2024-01-01T00:00:00Z\",\n  \"analysis_details\": {\n    \"keywords_found\": [\"IRS\", \"tax debt\", \"arrest\"],\n    \"confidence\": 0.95\n  }\n}"
+						}
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response has ok true', () => pm.expect(pm.response.json().ok).to.be.true);"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "GET /r2/convo/{convo_id}/list",
+					"request": {
+						"method": "GET",
+						"url": "{{baseUrl}}/r2/convo/{{convo_id}}/list"
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response has objects', () => pm.expect(pm.response.json()).to.have.property('objects'));"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "GET /r2/health",
+					"request": {
+						"method": "GET",
+						"url": "{{baseUrl}}/r2/health"
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('status is 200', () => pm.response.to.have.status(200));",
+									"pm.test('response has service', () => pm.expect(pm.response.json()).to.have.property('service'));"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://submammary-correlatively-irma.ngrok-free.dev"
+		},
+		{
+			"key": "session_id",
+			"value": "MZ86a38759ad0241b1b01e773378aa3a34"
+		},
+		{
+			"key": "stream_sid",
+			"value": "MZ86a38759ad0241b1b01e773378aa3a34"
+		}
+	]
+}

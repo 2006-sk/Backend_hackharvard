@@ -1,0 +1,4 @@
+SCAM_THRESHOLD = 90   # % score to auto-hang call
+MEDIUM_THRESHOLD = 50
+KEYWORD_WEIGHT = 0.7
+LENGTH_WEIGHT = 0.3

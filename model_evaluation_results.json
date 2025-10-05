@@ -1,0 +1,504 @@
+{
+  "overall_metrics": {
+    "accuracy": 0.6379310344827587,
+    "precision": 0.6333333333333333,
+    "recall": 0.6551724137931034,
+    "f1_score": 0.6440677966101694,
+    "roc_auc": 0.7431629013079668,
+    "pr_auc": 0.7590276113389274,
+    "confusion_matrix": {
+      "true_negatives": 18,
+      "false_positives": 11,
+      "false_negatives": 10,
+      "true_positives": 19
+    },
+    "specificity": 0.6206896551724138,
+    "sensitivity": 0.6551724137931034
+  },
+  "edge_case_analysis": {
+    "obvious_scams": {
+      "accuracy": 0.6,
+      "total_samples": 10,
+      "correct_predictions": 6,
+      "predictions": [
+        {
+          "text": "IRS officer calling about tax debt, pay immediatel...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.9873462759738483,
+          "correct": true
+        },
+        {
+          "text": "Congratulations! You won $1 million lottery! Send ...",
+          "true_label": 1,
+          "predicted_label": 0,
+          "probability": 0.2641792290833008,
+          "correct": false
+        },
+        {
+          "text": "Microsoft support detected virus on your computer,...",
+          "true_label": 1,
+          "predicted_label": 0,
+          "probability": 0.4573369073404165,
+          "correct": false
+        },
+        {
+          "text": "Your Amazon account will be charged $500, provide ...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.7227993859213693,
+          "correct": true
+        },
+        {
+          "text": "FBI calling about social security fraud, pay $2000...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.9887678714303253,
+          "correct": true
+        },
+        {
+          "text": "Your bank account is compromised, verify SSN and P...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.9877940908575895,
+          "correct": true
+        },
+        {
+          "text": "Vehicle warranty expiring today, press 1 now or lo...",
+          "true_label": 1,
+          "predicted_label": 0,
+          "probability": 0.4124307241317436,
+          "correct": false
+        },
+        {
+          "text": "Government grant of $10,000 available, pay $200 ad...",
+          "true_label": 1,
+          "predicted_label": 0,
+          "probability": 0.3642792371659811,
+          "correct": false
+        },
+        {
+          "text": "Debt collector calling about $5000 loan, pay now o...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.5158950637711485,
+          "correct": true
+        },
+        {
+          "text": "Social Security benefits suspended, verify bank ac...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.9877308007922501,
+          "correct": true
+        }
+      ]
+    },
+    "legitimate_calls": {
+      "accuracy": 0.8,
+      "total_samples": 10,
+      "correct_predictions": 8,
+      "predictions": [
+        {
+          "text": "Customer service calling to verify recent transact...",
+          "true_label": 0,
+          "predicted_label": 0,
+          "probability": 0.3368176850468131,
+          "correct": true
+        },
+        {
+          "text": "Microsoft support following up on your Office 365 ...",
+          "true_label": 0,
+          "predicted_label": 0,
+          "probability": 0.21134147156753133,
+          "correct": true
+        },
+        {
+          "text": "IRS taxpayer assistance center calling about your ...",
+          "true_label": 0,
+          "predicted_label": 1,
+          "probability": 0.5454274824784046,
+          "correct": false
+        },
+        {
+          "text": "Amazon customer service confirming delivery addres...",
+          "true_label": 0,
+          "predicted_label": 0,
+          "probability": 0.3184409063723703,
+          "correct": true
+        },
+        {
+          "text": "Bank fraud prevention department verifying suspici...",
+          "true_label": 0,
+          "predicted_label": 0,
+          "probability": 0.18699392773279278,
+          "correct": true
+        },
+        {
+          "text": "Insurance company calling about policy renewal opt...",
+          "true_label": 0,
+          "predicted_label": 0,
+          "probability": 0.4480930819903736,
+          "correct": true
+        },
+        {
+          "text": "DMV calling to remind you about vehicle registrati...",
+          "true_label": 0,
+          "predicted_label": 0,
+          "probability": 0.07229776287404226,
+          "correct": true
+        },
+        {
+          "text": "Credit card company fraud department verifying rec...",
+          "true_label": 0,
+          "predicted_label": 0,
+          "probability": 0.15223479597194758,
+          "correct": true
+        },
+        {
+          "text": "FBI public information office conducting routine c...",
+          "true_label": 0,
+          "predicted_label": 0,
+          "probability": 0.4353942087849254,
+          "correct": true
+        },
+        {
+          "text": "Social Security Administration calling about benef...",
+          "true_label": 0,
+          "predicted_label": 1,
+          "probability": 0.5261574340799181,
+          "correct": false
+        }
+      ]
+    },
+    "ambiguous_cases": {
+      "accuracy": 0.5,
+      "total_samples": 6,
+      "correct_predictions": 3,
+      "predictions": [
+        {
+          "text": "This is the fraud department calling about your ac...",
+          "true_label": 0,
+          "predicted_label": 1,
+          "probability": 0.5733307628794689,
+          "correct": false
+        },
+        {
+          "text": "Fraud department needs your social security number...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.6871848083939992,
+          "correct": true
+        },
+        {
+          "text": "We're calling from Microsoft about a security issu...",
+          "true_label": 0,
+          "predicted_label": 1,
+          "probability": 0.6618471642924987,
+          "correct": false
+        },
+        {
+          "text": "Microsoft detected malware, we need your credit ca...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.537202705921162,
+          "correct": true
+        },
+        {
+          "text": "IRS calling about your tax refund, we need bank de...",
+          "true_label": 0,
+          "predicted_label": 1,
+          "probability": 0.5762392011906196,
+          "correct": false
+        },
+        {
+          "text": "IRS calling about tax debt, pay immediately or fac...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.9977416814263612,
+          "correct": true
+        }
+      ]
+    },
+    "technical_terms": {
+      "accuracy": 0.8333333333333334,
+      "total_samples": 6,
+      "correct_predictions": 5,
+      "predictions": [
+        {
+          "text": "Your computer has been infected with ransomware, p...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.5629058514495505,
+          "correct": true
+        },
+        {
+          "text": "Windows Defender detected Trojan horse malware, do...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.5160338003246044,
+          "correct": true
+        },
+        {
+          "text": "Your IP address has been compromised, we need remo...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.6425304117705489,
+          "correct": true
+        },
+        {
+          "text": "IT support calling about scheduled system maintena...",
+          "true_label": 0,
+          "predicted_label": 0,
+          "probability": 0.19889096739445192,
+          "correct": true
+        },
+        {
+          "text": "Software update available for your operating syste...",
+          "true_label": 0,
+          "predicted_label": 0,
+          "probability": 0.07044329697316477,
+          "correct": true
+        },
+        {
+          "text": "Cybersecurity team calling about potential data br...",
+          "true_label": 0,
+          "predicted_label": 1,
+          "probability": 0.6071234333936087,
+          "correct": false
+        }
+      ]
+    },
+    "emotional_language": {
+      "accuracy": 0.5,
+      "total_samples": 6,
+      "correct_predictions": 3,
+      "predictions": [
+        {
+          "text": "URGENT: Your account will be closed TODAY unless y...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.6521587728989736,
+          "correct": true
+        },
+        {
+          "text": "This is your FINAL WARNING about the serious conse...",
+          "true_label": 1,
+          "predicted_label": 0,
+          "probability": 0.4253180707569814,
+          "correct": false
+        },
+        {
+          "text": "Don't hang up! This is extremely important for you...",
+          "true_label": 1,
+          "predicted_label": 0,
+          "probability": 0.4436500734931535,
+          "correct": false
+        },
+        {
+          "text": "We're sorry to bother you, but this is important f...",
+          "true_label": 0,
+          "predicted_label": 1,
+          "probability": 0.529353540139791,
+          "correct": false
+        },
+        {
+          "text": "Thank you for your patience as we resolve this mat...",
+          "true_label": 0,
+          "predicted_label": 0,
+          "probability": 0.25317639077456733,
+          "correct": true
+        },
+        {
+          "text": "We understand this might be concerning, let us hel...",
+          "true_label": 0,
+          "predicted_label": 0,
+          "probability": 0.2169150586403975,
+          "correct": true
+        }
+      ]
+    },
+    "short_phrases": {
+      "accuracy": 0.6666666666666666,
+      "total_samples": 6,
+      "correct_predictions": 4,
+      "predictions": [
+        {
+          "text": "IRS calling about taxes...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.6490350448101202,
+          "correct": true
+        },
+        {
+          "text": "You owe money...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.5169919833992952,
+          "correct": true
+        },
+        {
+          "text": "Pay now or arrested...",
+          "true_label": 1,
+          "predicted_label": 0,
+          "probability": 0.3606034993791593,
+          "correct": false
+        },
+        {
+          "text": "Customer service calling...",
+          "true_label": 0,
+          "predicted_label": 0,
+          "probability": 0.4280177657853701,
+          "correct": true
+        },
+        {
+          "text": "Account verification needed...",
+          "true_label": 0,
+          "predicted_label": 1,
+          "probability": 0.7002572045568621,
+          "correct": false
+        },
+        {
+          "text": "Thank you for calling...",
+          "true_label": 0,
+          "predicted_label": 0,
+          "probability": 0.24842814195310073,
+          "correct": true
+        }
+      ]
+    },
+    "long_complex": {
+      "accuracy": 0.5,
+      "total_samples": 2,
+      "correct_predictions": 1,
+      "predictions": [
+        {
+          "text": "This is Officer Johnson from the Internal Revenue ...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.9835001716391405,
+          "correct": true
+        },
+        {
+          "text": "We are calling from the customer service departmen...",
+          "true_label": 0,
+          "predicted_label": 1,
+          "probability": 0.6365489630521326,
+          "correct": false
+        }
+      ]
+    },
+    "urgency_pressure": {
+      "accuracy": 0.6666666666666666,
+      "total_samples": 6,
+      "correct_predictions": 4,
+      "predictions": [
+        {
+          "text": "This must be resolved TODAY or your account will b...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.5391668848807727,
+          "correct": true
+        },
+        {
+          "text": "Time is running out, you have 30 minutes to preven...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.6519788711896051,
+          "correct": true
+        },
+        {
+          "text": "Don't delay, this is your last chance to avoid ser...",
+          "true_label": 1,
+          "predicted_label": 0,
+          "probability": 0.3065795613004567,
+          "correct": false
+        },
+        {
+          "text": "We need to resolve this quickly to protect your ac...",
+          "true_label": 0,
+          "predicted_label": 1,
+          "probability": 0.540181348874701,
+          "correct": false
+        },
+        {
+          "text": "Please call us back at your earliest convenience t...",
+          "true_label": 0,
+          "predicted_label": 0,
+          "probability": 0.2750856967935303,
+          "correct": true
+        },
+        {
+          "text": "No rush, take your time to verify this information...",
+          "true_label": 0,
+          "predicted_label": 0,
+          "probability": 0.21111732070789957,
+          "correct": true
+        }
+      ]
+    },
+    "numbers_money": {
+      "accuracy": 0.5,
+      "total_samples": 6,
+      "correct_predictions": 3,
+      "predictions": [
+        {
+          "text": "You owe exactly $4,237.89 and must pay today or fa...",
+          "true_label": 1,
+          "predicted_label": 1,
+          "probability": 0.5313479089384675,
+          "correct": true
+        },
+        {
+          "text": "Send $500 in Bitcoin to wallet address 1A1zP1eP5QG...",
+          "true_label": 1,
+          "predicted_label": 0,
+          "probability": 0.4313095128653354,
+          "correct": false
+        },
+        {
+          "text": "Your refund of $1,234.56 is ready, but we need you...",
+          "true_label": 1,
+          "predicted_label": 0,
+          "probability": 0.2971767683212137,
+          "correct": false
+        },
+        {
+          "text": "Your account balance shows $2,500.00, we're callin...",
+          "true_label": 0,
+          "predicted_label": 1,
+          "probability": 0.5417463435265215,
+          "correct": false
+        },
+        {
+          "text": "The monthly service fee is $9.99, would you like t...",
+          "true_label": 0,
+          "predicted_label": 0,
+          "probability": 0.2284817172791403,
+          "correct": true
+        },
+        {
+          "text": "Your insurance premium of $156.78 is due next week...",
+          "true_label": 0,
+          "predicted_label": 0,
+          "probability": 0.25864374444139404,
+          "correct": true
+        }
+      ]
+    }
+  },
+  "cross_validation": {
+    "error": "Cross-validation failed: \nAll the 5 fits failed.\nIt is very likely that your model is misconfigured.\nYou can try to debug the error by setting error_score='raise'.\n\nBelow are more details about the failures:\n--------------------------------------------------------------------------------\n5 fits failed with the following error:\nTraceback (most recent call last):\n  File \"/Users/apple/Desktop/Scam_caller/backend/lib/python3.11/site-packages/sklearn/model_selection/_validation.py\", line 732, in _fit_and_score\n    estimator.fit(X_train, y_train, **fit_params)\n  File \"/Users/apple/Desktop/Scam_caller/backend/lib/python3.11/site-packages/sklearn/base.py\", line 1144, in wrapper\n    estimator._validate_params()\n  File \"/Users/apple/Desktop/Scam_caller/backend/lib/python3.11/site-packages/sklearn/base.py\", line 637, in _validate_params\n    validate_parameter_constraints(\n  File \"/Users/apple/Desktop/Scam_caller/backend/lib/python3.11/site-packages/sklearn/utils/_param_validation.py\", line 95, in validate_parameter_constraints\n    raise InvalidParameterError(\nsklearn.utils._param_validation.InvalidParameterError: The 'multi_class' parameter of LogisticRegression must be a str among {'ovr', 'auto', 'multinomial'}. Got 'deprecated' instead.\n"
+  },
+  "feature_importance": {
+    "advanced_base_risk": -0.13622460121126487,
+    "advanced_smoothed_risk": -0.13622460121126487,
+    "risk_band": -0.49479536386198264,
+    "high_risk_matches": 0.8546116161912096,
+    "medium_risk_matches": -0.044837467988656204,
+    "ml_probability": 0.6845544692712838,
+    "text_length": -0.1380988277482766,
+    "sentence_count": 0.020701109352139455
+  },
+  "test_samples": 58,
+  "model_trained": true
+}
