@@ -17,3 +17,4 @@ models/
 *.pt
 .DS_Store
 
+.env
