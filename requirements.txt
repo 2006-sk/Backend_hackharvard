@@ -16,3 +16,8 @@ seaborn==0.12.2
 matplotlib==3.7.2
 setuptools>=65.0.0
 wheel
+torch>=1.11.0
+transformers>=4.30.0
+scikit-learn
+numpy
+sentence-transformers==2.2.2
