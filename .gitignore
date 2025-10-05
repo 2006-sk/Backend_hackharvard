@@ -1,14 +1,19 @@
+
 __pycache__/
-.env
 *.pyc
-*.db
-*.sqlite3
-.DS_Store
-.idea/
-.vscode/
-__pycache__/
+*.pyo
+*.pyd
 venv/
-*.log
+.venv/
+env/
+backend/lib/
+backend/include/
+backend/bin/
+models/
 *.wav
 *.mp3
+*.dylib
+*.so
+*.pt
+.DS_Store
 
