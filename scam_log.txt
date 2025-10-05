@@ -715,3 +715,416 @@
 0.0% | [] | to your phone number.
 0.0% | [] | Thank you.
 0.0% | [] | But let's get on with it.
+0.0% | [] | Do you get that?
+0.0% | [] | I don't know what you could mean.
+0.0% | [] | We have good dinner prep ahead of us. Ballon. Yeah.
+0.0% | [] | My
+0.0% | [] | You don't need to know that.
+0.0% | [] | You put it
+0.0% | [] | I don't know.
+0.0% | [] | I didn't do it on purpose.
+0.0% | [] | Please take your seats.
+0.0% | [] | hello hello hello one two three four one two three
+0.0% | [] | Go to mic check, mic check.
+0.0% | [] | I want you to know
+0.0% | [] | that I'm never leaving cause I'm a
+0.0% | [] | It's just no, don't let her be free
+0.0% | [] | Nithyanandeshwara Samaarambhaam
+0.0% | [] | Come on, let's go.
+0.0% | [] | Let's go below zero.
+0.0% | [] | And hide from the sun
+0.0% | [] | Love you forever, baby, I'll have to...
+0.0% | [] | one. Yes, let's hit the not all.
+0.0% | [] | and live happily, please don't cry.
+0.0% | [] | I know it's Christmas now, it's Christmas, baby.
+0.0% | [] | My snowman and me
+24.0% | [('health insurance', 80.0), ('send us money', 80.0), ('double your money', 80.0)] | Hey
+0.0% | [] | All right.
+0.0% | [] | Bye.
+0.0% | [] | Thank you.
+0.0% | [] | Hello, Hello
+0.0% | [] | Thank you very much, thank you very much.
+0.0% | [] | You're not getting out of work.
+17.1% | [('one time password', 85.71428571428572), ('do not tell anyone', 85.71428571428572)] | one.
+0.0% | [] | Namah Shivaya.
+27.1% | [('credit card', 100.0), ('debit card', 88.88888888888889), ('credit score boost', 81.81818181818181)] | credit card
+0.0% | [] | Kneadinghando you One Two Three Four Five Five Four Five Four Five Two Four Five Two
+0.0% | [] | That's a good cow. That's a good rack. That's a good rack.
+0.0% | [] | Okay. Dada Dada. Translate. Okay. Dada Dada.
+0.0% | [] | Talk to you later
+0.0% | [] | That is good, Raks. Dada translate.
+0.0% | [] | You're a cow-puffer. That's good cow.
+0.0% | [] | Thank you.
+0.0% | [] | You are a cow puffer, you don't know how to speak English.
+0.0% | [] | Why did you say Cow Puffer?
+0.0% | [] | I'll make all that. Thank you.
+0.0% | [] | Thank you.
+0.0% | [] | Thank you very much.
+0.0% | [] | Fly me to the moon
+0.0% | [] | Let me play
+0.0% | [] | I am a Wonderstar
+0.0% | [] | Let me see
+0.0% | [] | What spring is like on...
+0.0% | [] | Jupiter and Mars.
+0.0% | [] | In other words...
+0.0% | [] | Ooh, my hand.
+0.0% | [] | You know, the word, I'll pay you.
+0.0% | [] | Kiss me.
+0.0% | [] | Thank you.
+0.0% | [] | Thank you.
+0.0% | [] | Thank you.
+0.0% | [] | who has the opportunity to do that.
+0.0% | [] | How good is this? Oh, it's great. I haven't done it in two days.
+0.0% | [] | Thank you. Thank you.
+0.0% | [] | Thank you.
+0.0% | [] | Thank you.
+0.0% | [] | Thank you.
+0.0% | [] | So they were my check, my check, my, my, my.
+0.0% | [] | Call on me, call on me, call on me
+0.0% | [] | I'm already dead. Ah, ah, ah.
+0.0% | [] | Thank you.
+100% | [('update your account', 100.0), ('verify your payment', 100.0), ('outstanding balance', 80.0), ('congratulations you have won', 100.0), ('you are selected', 100.0), ('claim your reward', 100.0), ('redeem your gift', 100.0), ('your computer has a virus', 100.0), ('your device is infected', 100.0), ('update your system', 100.0), ('verify your computer', 100.0), ('verify your identity', 100.0), ('confirm your login', 100.0), ('reset your password', 100.0), ('you must comply', 100.0), ('update your shipping', 100.0), ('verify your order', 100.0), ('double your money', 100.0), ('withdraw your profit', 100.0), ('provide your information', 100.0)] | you
+0.0% | [] | Thank you.
+0.0% | [] | You've got a message.
+0.0% | [] | and good luck. Good luck.
+0.0% | [] | Thank you.
+0.0% | [] | Keep on.
+0.0% | [] | Thank you.
+0.0% | [] | Michael is speaking.
+0.0% | [] | Okay. Great. Thank you.
+0.0% | [] | You cut it from your side.
+100% | [('update your account', 100.0), ('verify your payment', 100.0), ('outstanding balance', 80.0), ('congratulations you have won', 100.0), ('you are selected', 100.0), ('claim your reward', 100.0), ('redeem your gift', 100.0), ('your computer has a virus', 100.0), ('your device is infected', 100.0), ('update your system', 100.0), ('verify your computer', 100.0), ('verify your identity', 100.0), ('confirm your login', 100.0), ('reset your password', 100.0), ('you must comply', 100.0), ('update your shipping', 100.0), ('verify your order', 100.0), ('double your money', 100.0), ('withdraw your profit', 100.0), ('provide your information', 100.0)] | you
+0.0% | [] | Bye.
+0.0% | [] | We'll be back. Bye. Bye.
+0.0% | [] | minutes to do so that often that's your
+0.0% | [] | build or I
+0.0% | [] | Yeah
+0.0% | [] | Thank you. Thank you. Thank you.
+0.0% | [] | Thank you.
+0.0% | [] | Oh
+0.0% | [] | Yeah. Okay.
+0.0% | [] | I don't hear it at all.
+0.0% | [] | Thank you.
+0.0% | [] | Thank you. Bye.
+0.0% | [] | front end. Thank you. Thank you.
+0.0% | [] | humblefieldsarch.com
+100% | [('update your account', 100.0), ('verify your payment', 100.0), ('outstanding balance', 80.0), ('congratulations you have won', 100.0), ('you are selected', 100.0), ('claim your reward', 100.0), ('redeem your gift', 100.0), ('your computer has a virus', 100.0), ('your device is infected', 100.0), ('update your system', 100.0), ('verify your computer', 100.0), ('verify your identity', 100.0), ('confirm your login', 100.0), ('reset your password', 100.0), ('you must comply', 100.0), ('update your shipping', 100.0), ('verify your order', 100.0), ('double your money', 100.0), ('withdraw your profit', 100.0), ('provide your information', 100.0)] | you
+0.0% | [] | Thanks for watching!
+0.0% | [] | the wire and the call will be
+0.0% | [] | loaded right there.
+0.0% | [] | Hi, I'm Shresh Kumar Karnani.
+10.0% | [('microsoft support', 100.0)] | I am from Microsoft Support Center.
+0.0% | [] | There is a Trojan virus on
+0.0% | [] | your Mac and
+0.0% | [] | We're gonna
+0.0% | [] | virus there. See? So, that's the end of the video. Thank you. And I'll see you in the next video.
+0.0% | [] | It's worth looking over very carefully.
+0.0% | [] | Please pay as soon as possible.
+0.0% | [] | Please pay attention.
+0.0% | [] | soon as possible.
+0.0% | [] | I'll
+0.0% | [] | I can't speak Hindi, I can't speak Hindi.
+0.0% | [] | Hello, this is the IIT Bombay.
+0.0% | [] | calling about your unpaid taxes.
+8.1% | [('you must comply', 81.4814814814815)] | You must pay immediately by gift card.
+10.0% | [('irs', 100.0)] | This is the IRS. Call back.
+10.0% | [('social security', 100.0)] | with your social security number to avoid arrest.
+8.9% | [('verify your computer', 88.88888888888889)] | If your computer is affected, we are taking action.
+0.0% | [] | support from Microsoft.
+10.0% | [('investment opportunity', 100.0)] | investment opportunity, send money by wire.
+0.0% | [] | transfer to secure your seat.
+0.0% | [] | Suspicions? Marginal. Okay.
+0.0% | [] | Thank you.
+0.0% | [] | Sitting adjourned.
+0.0% | [] | Thank you.
+0.0% | [] | Hi, my name is Aditya.
+0.0% | [] | I'm one of the representatives of the.
+10.0% | [('amazon', 100.0)] | Amazon Web Services company.
+0.0% | [] | I'm calling you regarding one of your deletions.
+0.0% | [] | late payment towards the iPhone.
+0.0% | [] | phone that you purchased last week last.
+0.0% | [] | week. I just wanted to let you know that the
+0.0% | [] | iPhone is back in stock and
+0.0% | [] | of the inconvenience that we had.
+0.0% | [] | During the last transaction, I would like to...
+0.0% | [] | you to offer a $1,000 gift card.
+0.0% | [] | To get that gift card, I will.
+10.0% | [('social security', 100.0)] | need your social security number.
+10.0% | [('otp', 100.0)] | And I will also send an OTP to your phone.
+0.0% | [] | I would also need that ODP.
+0.0% | [] | So if you were able to give me I would
+0.0% | [] | able to provide you.
+0.0% | [] | So, all right.
+0.0% | [] | Thank you.
+0.0% | [] | Thank you. Bye.
+0.0% | [] | Hi, I am.
+0.0% | [] | Thank you.
+10.0% | [('irs', 100.0)] | IRS calling about your.
+0.0% | [] | paid taxes, you must pay immediately.
+0.0% | [] | by gift cards.
+0.0% | [] | This is Darius, call back with your social media.
+0.0% | [] | Also, secure the number to avoid arrest.
+0.0% | [] | The computer is infected.
+0.0% | [] | We are Tech Savage from Microsoft.
+0.0% | [] | Thank you. Bye.
+0.0% | [] | How much percentage did you cross? 76%
+0.0% | [] | Thank you. Bye.
+0.0% | [] | Bye. Bye. Bye.
+0.0% | [] | All in you can be out. Now.
+0.0% | [] | Thank you. Bye. Bye.
+0.0% | [] | Thank you.
+0.0% | [] | And it gives you a lot of good choices for going forward.
+0.0% | [] | Thank you.
+0.0% | [] | computer is infected, we are tech support from.
+10.0% | [('remote access', 100.0)] | Microsoft. Allow me remote access.
+17.7% | [('your computer has a virus', 86.66666666666667), ('verify your computer', 90.32258064516128)] | to your computer.
+0.0% | [] | have a Trojan virus on your Macbook.
+10.0% | [('microsoft support', 100.0)] | We are Microsoft Support Team.
+0.0% | [] | centers.
+0.0% | [] | Thank you.
+0.0% | [] | Bye. Thanks a lot.
+100% | [('update your account', 100.0), ('verify your payment', 100.0), ('outstanding balance', 80.0), ('congratulations you have won', 100.0), ('you are selected', 100.0), ('claim your reward', 100.0), ('redeem your gift', 100.0), ('your computer has a virus', 100.0), ('your device is infected', 100.0), ('update your system', 100.0), ('verify your computer', 100.0), ('verify your identity', 100.0), ('confirm your login', 100.0), ('reset your password', 100.0), ('you must comply', 100.0), ('update your shipping', 100.0), ('verify your order', 100.0), ('double your money', 100.0), ('withdraw your profit', 100.0), ('provide your information', 100.0)] | you
+0.0% | [] | It's okay now.
+0.0% | [] | the boundary, cut the boundary, so that the modes of saturation not subject to those conditions which are self-kenting. So, now that you know the boundary condition, all steps for validation and tolerancy, we can go to next method, in this next method we have another tree, again we will get all the components of this tree.
+0.0% | [] | Utah, shout out.
+0.0% | [] | yeh kaha se pull kar raha hai tu yeh?
+0.0% | [] | Why is it falling?
+0.0% | [] | Because there was no end call.
+0.0% | [] | I'll be right back.
+0.0% | [] | What are you saying?
+100% | [('update your account', 100.0), ('verify your payment', 100.0), ('outstanding balance', 80.0), ('congratulations you have won', 100.0), ('you are selected', 100.0), ('claim your reward', 100.0), ('redeem your gift', 100.0), ('your computer has a virus', 100.0), ('your device is infected', 100.0), ('update your system', 100.0), ('verify your computer', 100.0), ('verify your identity', 100.0), ('confirm your login', 100.0), ('reset your password', 100.0), ('you must comply', 100.0), ('update your shipping', 100.0), ('verify your order', 100.0), ('double your money', 100.0), ('withdraw your profit', 100.0), ('provide your information', 100.0)] | you
+100% | [('update your account', 100.0), ('verify your payment', 100.0), ('outstanding balance', 80.0), ('congratulations you have won', 100.0), ('you are selected', 100.0), ('claim your reward', 100.0), ('redeem your gift', 100.0), ('your computer has a virus', 100.0), ('your device is infected', 100.0), ('update your system', 100.0), ('verify your computer', 100.0), ('verify your identity', 100.0), ('confirm your login', 100.0), ('reset your password', 100.0), ('you must comply', 100.0), ('update your shipping', 100.0), ('verify your order', 100.0), ('double your money', 100.0), ('withdraw your profit', 100.0), ('provide your information', 100.0)] | you
+0.0% | [] | Mother Tudor.
+0.0% | [] | Bye!
+0.0% | [] | Hi, I'm Suresh Kumar Karnani calling.
+10.0% | [('amazon', 100.0)] | from Amazon.
+0.0% | [] | I just wanted to inform you that we are trying.
+0.0% | [] | trying to...
+0.0% | [] | about an iPhone you purchased earlier.
+0.0% | [] | And you need a gift coupon.
+0.0% | [] | And don't read it. I need
+0.0% | [] | $3,000 from you is that
+0.0% | [] | Okay.
+0.0% | [] | Oh, yeah.
+0.0% | [] | Thank you.
+0.0% | [] | Thank you.
+100% | [('update your account', 100.0), ('verify your payment', 100.0), ('outstanding balance', 80.0), ('congratulations you have won', 100.0), ('you are selected', 100.0), ('claim your reward', 100.0), ('redeem your gift', 100.0), ('your computer has a virus', 100.0), ('your device is infected', 100.0), ('update your system', 100.0), ('verify your computer', 100.0), ('verify your identity', 100.0), ('confirm your login', 100.0), ('reset your password', 100.0), ('you must comply', 100.0), ('update your shipping', 100.0), ('verify your order', 100.0), ('double your money', 100.0), ('withdraw your profit', 100.0), ('provide your information', 100.0)] | you
+100% | [('update your account', 100.0), ('verify your payment', 100.0), ('outstanding balance', 80.0), ('congratulations you have won', 100.0), ('you are selected', 100.0), ('claim your reward', 100.0), ('redeem your gift', 100.0), ('your computer has a virus', 100.0), ('your device is infected', 100.0), ('update your system', 100.0), ('verify your computer', 100.0), ('verify your identity', 100.0), ('confirm your login', 100.0), ('reset your password', 100.0), ('you must comply', 100.0), ('update your shipping', 100.0), ('verify your order', 100.0), ('double your money', 100.0), ('withdraw your profit', 100.0), ('provide your information', 100.0)] | you
+0.0% | [] | See you. Bye. Bye.
+0.0% | [] | Thank you. Bye. Bye.
+100% | [('update your account', 100.0), ('verify your payment', 100.0), ('outstanding balance', 80.0), ('congratulations you have won', 100.0), ('you are selected', 100.0), ('claim your reward', 100.0), ('redeem your gift', 100.0), ('your computer has a virus', 100.0), ('your device is infected', 100.0), ('update your system', 100.0), ('verify your computer', 100.0), ('verify your identity', 100.0), ('confirm your login', 100.0), ('reset your password', 100.0), ('you must comply', 100.0), ('update your shipping', 100.0), ('verify your order', 100.0), ('double your money', 100.0), ('withdraw your profit', 100.0), ('provide your information', 100.0)] | you
+100% | [('update your account', 100.0), ('verify your payment', 100.0), ('outstanding balance', 80.0), ('congratulations you have won', 100.0), ('you are selected', 100.0), ('claim your reward', 100.0), ('redeem your gift', 100.0), ('your computer has a virus', 100.0), ('your device is infected', 100.0), ('update your system', 100.0), ('verify your computer', 100.0), ('verify your identity', 100.0), ('confirm your login', 100.0), ('reset your password', 100.0), ('you must comply', 100.0), ('update your shipping', 100.0), ('verify your order', 100.0), ('double your money', 100.0), ('withdraw your profit', 100.0), ('provide your information', 100.0)] | you
+0.0% | [] | Yeah. Got it.
+0.0% | [] | Hi, I am Suresh Kumar Karnani.
+9.1% | [('i am calling from', 90.9090909090909)] | I'm calling from Best Buy.
+8.3% | [('urgent', 83.33333333333334)] | Um, we have a current scheme.
+0.0% | [] | going on in your screen, you'll have.
+0.0% | [] | You have to pay via coupon.
+0.0% | [] | And if you win, you get $10,000.
+0.0% | [] | dollars.
+0.0% | [] | Fuck you. Fuck you for who?
+0.0% | [] | So cool. So cool. So cool. So cool. So cool.
+0.0% | [] | Fuck you, fuck you, fuck you.
+0.0% | [] | Fuck you fuck you fuck you fuck you.
+0.0% | [] | What do you? What do you? What do you?
+0.0% | [] | Okay, I need some money.
+0.0% | [] | Fuck you, fuck you, fuck you, fuck you, fuck you.
+0.0% | [] | Can you give me some money?
+0.0% | [] | I need some money.
+0.0% | [] | Okay.
+0.0% | [] | Nice, so your end score.
+0.0% | [] | Bye-bye.
+0.0% | [] | Thank you.
+0.0% | [] | They go away.
+0.0% | [] | Thank you. Bye.
+100% | [('update your account', 100.0), ('verify your payment', 100.0), ('outstanding balance', 80.0), ('congratulations you have won', 100.0), ('you are selected', 100.0), ('claim your reward', 100.0), ('redeem your gift', 100.0), ('your computer has a virus', 100.0), ('your device is infected', 100.0), ('update your system', 100.0), ('verify your computer', 100.0), ('verify your identity', 100.0), ('confirm your login', 100.0), ('reset your password', 100.0), ('you must comply', 100.0), ('update your shipping', 100.0), ('verify your order', 100.0), ('double your money', 100.0), ('withdraw your profit', 100.0), ('provide your information', 100.0)] | you
+0.0% | [] | Bye-bye.
+0.0% | [] | Hi, this is Sreeskumar Kandil.
+0.0% | [] | I mean, am I, am I still active?
+0.0% | [] | Yes, I am still active.
+0.0% | [] | Thank you.
+0.0% | [] | Bye.
+0.0% | [] | It's not getting disconnected, so it's not disconnecting properly.
+0.0% | [] | Hi, I am Suresh Kumar Karnani.
+0.0% | [] | And I think that...
+0.0% | [] | Thank you. Thank you.
+0.0% | [] | Oh
+0.0% | [] | Thank you.
+100% | [('credit card', 100.0), ('debit card', 100.0), ('routing number', 100.0), ('account verification', 100.0), ('transaction alert', 100.0), ('bank security', 100.0), ('wire transfer', 100.0), ('direct deposit', 100.0), ('payment authorization', 100.0), ('unauthorized charge', 100.0), ('suspicious transaction', 100.0), ('billing issue', 100.0), ('financial department', 100.0), ('investment opportunity', 100.0), ('verify your payment', 100.0), ('social security', 100.0), ('irs', 100.0), ('internal revenue service', 100.0), ('outstanding balance', 100.0), ('criminal investigation', 100.0), ('legal enforcement action', 100.0), ('police department', 100.0), ('tax evasion', 100.0), ('government officer', 100.0), ('national insurance number', 100.0), ('free prize', 100.0), ('congratulations you have won', 100.0), ('claim your reward', 100.0), ('exclusive offer', 100.0), ('cash prize', 100.0), ('lucky winner', 100.0), ('redeem your gift', 100.0), ('free vacation', 100.0), ('win a car', 100.0), ('special promotion', 100.0), ('microsoft support', 100.0), ('your computer has a virus', 100.0), ('windows security', 100.0), ('your device is infected', 100.0), ('technical support', 100.0), ('security alert', 100.0), ('install software', 100.0), ('verify your computer', 100.0), ('call this number', 100.0), ('download this app', 100.0), ('vehicle warranty', 100.0), ('car insurance', 100.0), ('life insurance', 100.0), ('health insurance', 100.0), ('medicare', 100.0), ('policy renewal', 100.0), ('coverage expired', 100.0), ('beneficiary update', 100.0), ('insurance claim', 100.0), ('medical plan', 100.0), ('final expense', 100.0), ('verify your identity', 100.0), ('one time password', 100.0), ('verification code', 100.0), ('identity confirmation', 100.0), ('two factor authentication', 100.0), ('security code', 100.0), ('confirm your login', 100.0), ('account deactivated', 100.0), ('update credentials', 100.0), ('immediate action required', 100.0), ('limited time', 100.0), ('final notice', 100.0), ('don’t share this', 100.0), ('keep this confidential', 100.0), ('this call is recorded', 100.0), ('failure to respond', 100.0), ('penalty will be applied', 100.0), ('sensitive information', 100.0), ('disclose details', 100.0), ('confidential offer', 100.0), ('package delivery', 100.0), ('tracking number', 100.0), ('shipment failed', 100.0), ('delivery attempt', 100.0), ('update your shipping', 100.0), ('verify your order', 100.0), ('order confirmation', 100.0), ('unauthorized order', 100.0), ('bitcoin', 100.0), ('deposit funds', 100.0), ('investment return', 100.0), ('guaranteed profit', 100.0), ('trading platform', 100.0), ('withdraw your profit', 100.0), ('financial freedom', 100.0), ('limited time investment', 100.0), ('mining opportunity', 100.0), ('debt relief', 100.0), ('consolidate debt', 100.0), ('loan forgiveness', 100.0), ('interest reduction', 100.0), ('credit score boost', 100.0), ('no credit check', 100.0), ('instant approval', 100.0), ('this is not a scam', 100.0), ('i am calling from', 100.0), ('official representative', 100.0), ('financial department', 100.0), ('confidential matter', 100.0), ('limited availability', 100.0), ('authorization needed', 100.0), ('claim department', 100.0), ('provide your information', 100.0), ('stay on the line', 100.0)] | I
+0.0% | [] | This is Suresh Kumar Karnali.
+0.0% | [] | And I am talking.
+8.1% | [('official representative', 80.95238095238095)] | to a representative from SCAM.
+0.0% | [] | ScamPI, and out.
+0.0% | [] | I want to scam your company.
+0.0% | [] | Can I scan your company?
+0.0% | [] | Can I scam your company? Can I scam your company?
+0.0% | [] | company? Can I scam your company?
+0.0% | [] | Can I scam your company?
+0.0% | [] | Can I scam your company? Can I scam your...
+0.0% | [] | complete. Janash, I'm your complete.
+0.0% | [] | Can I scan your company?
+0.0% | [] | and as can your company and as can your...
+0.0% | [] | company, and I can't be a company.
+0.0% | [] | Thank you.
+0.0% | [] | Thank you.
+0.0% | [] | Peace out.
+0.0% | [] | Keep trying to hit it.
+0.0% | [] | Yeah, I don't know why.
+0.0% | [] | I think that is one of the reasons why he is angry.
+0.0% | [] | of Mr. scam you
+0.0% | [] | and fuck you, so tell me.
+0.0% | [] | Could I disconnect you?
+0.0% | [] | Right. Thank you, Jaiyabh.
+0.0% | [] | And I tried
+0.0% | [] | I cannot disconnect.
+0.0% | [] | I could not get it on video configuration drive.
+0.0% | [] | Let's see. Let's try again. Let's try again.
+0.0% | [] | Let's try again, let's see if I can do it.
+0.0% | [] | I'm able to disconnect you, I think.
+8.6% | [('act now', 85.71428571428572)] | I should be able to disconnect now.
+0.0% | [] | I'm going to disconnect.
+0.0% | [] | Thank you. Thank you. Thank you.
+0.0% | [] | And connect
+0.0% | [] | I'm disconnecting, bye-bye.
+0.0% | [] | Thank you.
+100% | [('credit card', 100.0), ('debit card', 100.0), ('routing number', 100.0), ('account verification', 100.0), ('transaction alert', 100.0), ('bank security', 100.0), ('wire transfer', 100.0), ('direct deposit', 100.0), ('payment authorization', 100.0), ('unauthorized charge', 100.0), ('suspicious transaction', 100.0), ('billing issue', 100.0), ('financial department', 100.0), ('investment opportunity', 100.0), ('verify your payment', 100.0), ('social security', 100.0), ('irs', 100.0), ('internal revenue service', 100.0), ('outstanding balance', 100.0), ('criminal investigation', 100.0), ('legal enforcement action', 100.0), ('police department', 100.0), ('tax evasion', 100.0), ('government officer', 100.0), ('national insurance number', 100.0), ('free prize', 100.0), ('congratulations you have won', 100.0), ('claim your reward', 100.0), ('exclusive offer', 100.0), ('cash prize', 100.0), ('lucky winner', 100.0), ('redeem your gift', 100.0), ('free vacation', 100.0), ('win a car', 100.0), ('special promotion', 100.0), ('microsoft support', 100.0), ('your computer has a virus', 100.0), ('windows security', 100.0), ('your device is infected', 100.0), ('technical support', 100.0), ('security alert', 100.0), ('install software', 100.0), ('verify your computer', 100.0), ('call this number', 100.0), ('download this app', 100.0), ('vehicle warranty', 100.0), ('car insurance', 100.0), ('life insurance', 100.0), ('health insurance', 100.0), ('medicare', 100.0), ('policy renewal', 100.0), ('coverage expired', 100.0), ('beneficiary update', 100.0), ('insurance claim', 100.0), ('medical plan', 100.0), ('final expense', 100.0), ('verify your identity', 100.0), ('one time password', 100.0), ('verification code', 100.0), ('identity confirmation', 100.0), ('two factor authentication', 100.0), ('security code', 100.0), ('confirm your login', 100.0), ('account deactivated', 100.0), ('update credentials', 100.0), ('immediate action required', 100.0), ('limited time', 100.0), ('final notice', 100.0), ('don’t share this', 100.0), ('keep this confidential', 100.0), ('this call is recorded', 100.0), ('failure to respond', 100.0), ('penalty will be applied', 100.0), ('sensitive information', 100.0), ('disclose details', 100.0), ('confidential offer', 100.0), ('package delivery', 100.0), ('tracking number', 100.0), ('shipment failed', 100.0), ('delivery attempt', 100.0), ('update your shipping', 100.0), ('verify your order', 100.0), ('order confirmation', 100.0), ('unauthorized order', 100.0), ('bitcoin', 100.0), ('deposit funds', 100.0), ('investment return', 100.0), ('guaranteed profit', 100.0), ('trading platform', 100.0), ('withdraw your profit', 100.0), ('financial freedom', 100.0), ('limited time investment', 100.0), ('mining opportunity', 100.0), ('debt relief', 100.0), ('consolidate debt', 100.0), ('loan forgiveness', 100.0), ('interest reduction', 100.0), ('credit score boost', 100.0), ('no credit check', 100.0), ('instant approval', 100.0), ('this is not a scam', 100.0), ('i am calling from', 100.0), ('official representative', 100.0), ('financial department', 100.0), ('confidential matter', 100.0), ('limited availability', 100.0), ('authorization needed', 100.0), ('claim department', 100.0), ('provide your information', 100.0), ('stay on the line', 100.0)] | I
+0.0% | [] | I am Shresh Kumar Karnani and
+0.0% | [] | I am a representative of CAMAI.
+0.0% | [] | And I want to buy
+0.0% | [] | take coupons from you.
+0.0% | [] | should be more than $10,000.
+0.0% | [] | and I hope this works.
+0.0% | [] | and let's hope the call has
+0.0% | [] | The call has not been cut
+0.0% | [] | It's good. Very good. Very good.
+0.0% | [] | Thank you.
+0.0% | [] | Thank you.
+0.0% | [] | Meow, meow, meow, meow, meow.
+0.0% | [] | Thank you.
+0.0% | [] | Okay, bye.
+0.0% | [] | Yum-yum, yum-yum, yum-yum, yum-yum.
+0.0% | [] | No, no, no, no, no.
+70.0% | [('technical support', 80.0), ('health insurance', 80.0), ('beneficiary update', 80.0), ('two factor authentication', 100.0), ('this call is recorded', 80.0), ('ethereum', 100.0), ('this is not a scam', 80.0), ('stay on the line', 100.0)] | the
+0.0% | [] | Oh no, oh no, oh no, oh no, oh no.
+0.0% | [] | Hi, I am Aditya Nagpal.
+0.0% | [] | and I am a big fan of Suresh Kumar.
+0.0% | [] | front of me and he is my mentor.
+0.0% | [] | He has taught me everything I know.
+0.0% | [] | and I want $10,000
+0.0% | [] | from him he has told me
+8.1% | [('redeem your gift', 81.4814814814815)] | coupon codes and I say do not redeem your
+0.0% | [] | coupon code and do not redeem the coupon.
+0.0% | [] | I am from Microsoft.
+0.0% | [] | Thank you.
+0.0% | [] | Thank you.
+0.0% | [] | Thank you for your time.
+0.0% | [] | Yes sir we move for the ventures
+0.0% | [] | Hi, I'm Aditya Nagpal. I'm one of the representatives.
+0.0% | [] | of the...
+0.0% | [] | Thank you. Bye.
+0.0% | [] | Thank you.
+0.0% | [] | Hi, I'm one of the representatives
+10.0% | [('amazon', 100.0)] | at the Amazon Web Service company.
+16.5% | [('tax department', 84.61538461538461), ('claim department', 80.0)] | I heard from my department.
+0.0% | [] | and that you were trying to purchase an iPhone from...
+0.0% | [] | our website a couple of days ago, and there is a link to it in the description below.
+0.0% | [] | question go through. I'm really sorry for that.
+0.0% | [] | extreme. We are scammered by the... We are scammed by the...
+0.0% | [] | I feel like throwing up.
+0.0% | [] | Thank you.
+100% | [('update your account', 100.0), ('verify your payment', 100.0), ('outstanding balance', 80.0), ('congratulations you have won', 100.0), ('you are selected', 100.0), ('claim your reward', 100.0), ('redeem your gift', 100.0), ('your computer has a virus', 100.0), ('your device is infected', 100.0), ('update your system', 100.0), ('verify your computer', 100.0), ('verify your identity', 100.0), ('confirm your login', 100.0), ('reset your password', 100.0), ('you must comply', 100.0), ('update your shipping', 100.0), ('verify your order', 100.0), ('double your money', 100.0), ('withdraw your profit', 100.0), ('provide your information', 100.0)] | you
+0.0% | [] | Thank you.
+8.0% | [('irs', 80.0)] | Hi, my name is
+0.0% | [] | My name is Aditya Nagpal. I am...
+0.0% | [] | one of the representatives at MSU.
+0.0% | [] | on the web services team.
+0.0% | [] | information from my team that
+0.0% | [] | You were trying to purchase an iPhone.
+0.0% | [] | last week, but your payment didn't...
+0.0% | [] | go through, so I'm here to help you today.
+0.0% | [] | I think I won't be able to help you if...
+10.0% | [('otp', 100.0)] | You just give me the OTP that I just sent.
+0.0% | [] | on your number and also your
+0.0% | [] | last four digits of the SSN
+36.9% | [('routing number', 92.3076923076923), ('national insurance number', 92.3076923076923), ('call this number', 92.3076923076923), ('tracking number', 92.3076923076923)] | number.
+10.0% | [('internal revenue service', 100.0)] | Hello, this is the Internal Revenue Service.
+8.0% | [('irs', 80.0)] | is calling about a serious problem with your tax.
+16.5% | [('unauthorized charge', 81.25), ('unauthorized order', 83.87096774193549)] | unauthorized filings on your social
+24.3% | [('bank account', 80.0), ('update your account', 81.25), ('security code', 81.81818181818181)] | security number, your account
+0.0% | [] | may be subject to immediate collection.
+0.0% | [] | actions to avoid arrest or
+8.0% | [('otp', 80.0)] | other penalties. Thank you.
+0.0% | [] | and take a look at the blog post on the platform.
+0.0% | [] | Thank you.
+0.0% | [] | Okay, I'll just keep you guys very partly.
+100% | [('update your account', 100.0), ('verify your payment', 100.0), ('outstanding balance', 80.0), ('congratulations you have won', 100.0), ('you are selected', 100.0), ('claim your reward', 100.0), ('redeem your gift', 100.0), ('your computer has a virus', 100.0), ('your device is infected', 100.0), ('update your system', 100.0), ('verify your computer', 100.0), ('verify your identity', 100.0), ('confirm your login', 100.0), ('reset your password', 100.0), ('you must comply', 100.0), ('update your shipping', 100.0), ('verify your order', 100.0), ('double your money', 100.0), ('withdraw your profit', 100.0), ('provide your information', 100.0)] | You
+100% | [('update your account', 100.0), ('verify your payment', 100.0), ('outstanding balance', 80.0), ('congratulations you have won', 100.0), ('you are selected', 100.0), ('claim your reward', 100.0), ('redeem your gift', 100.0), ('your computer has a virus', 100.0), ('your device is infected', 100.0), ('update your system', 100.0), ('verify your computer', 100.0), ('verify your identity', 100.0), ('confirm your login', 100.0), ('reset your password', 100.0), ('you must comply', 100.0), ('update your shipping', 100.0), ('verify your order', 100.0), ('double your money', 100.0), ('withdraw your profit', 100.0), ('provide your information', 100.0)] | You
+0.0% | [] | I'll keep up the land
+100% | [('update your account', 100.0), ('verify your payment', 100.0), ('outstanding balance', 80.0), ('congratulations you have won', 100.0), ('you are selected', 100.0), ('claim your reward', 100.0), ('redeem your gift', 100.0), ('your computer has a virus', 100.0), ('your device is infected', 100.0), ('update your system', 100.0), ('verify your computer', 100.0), ('verify your identity', 100.0), ('confirm your login', 100.0), ('reset your password', 100.0), ('you must comply', 100.0), ('update your shipping', 100.0), ('verify your order', 100.0), ('double your money', 100.0), ('withdraw your profit', 100.0), ('provide your information', 100.0)] | You
+0.0% | [] | Bye.
+0.0% | [] | Thank you.
+100% | [('update your account', 100.0), ('verify your payment', 100.0), ('outstanding balance', 80.0), ('congratulations you have won', 100.0), ('you are selected', 100.0), ('claim your reward', 100.0), ('redeem your gift', 100.0), ('your computer has a virus', 100.0), ('your device is infected', 100.0), ('update your system', 100.0), ('verify your computer', 100.0), ('verify your identity', 100.0), ('confirm your login', 100.0), ('reset your password', 100.0), ('you must comply', 100.0), ('update your shipping', 100.0), ('verify your order', 100.0), ('double your money', 100.0), ('withdraw your profit', 100.0), ('provide your information', 100.0)] | You
+0.0% | [] | I don't think they have, well, I think they're older.
+0.0% | [] | That's all for this step. Keep trying. Have a great day.
+0.0% | [] | No, I have that name.
+0.0% | [] | You take care.
+0.0% | [] | But I'll talk with
+0.0% | [] | I don't know.
+0.0% | [] | I think this voice will help a lot of people and will help a lot of laptops.
+0.0% | [] | It's a difficult day, but I'll talk to you soon.
+0.0% | [] | Bye.
+0.0% | [] | Bye-bye.
+0.0% | [] | Hello.
+8.8% | [('internal revenue service', 87.5)] | This is the Internal Revenue Survey.
+0.0% | [] | service, calling about a serious problem.
+0.0% | [] | with your tax records.
+0.0% | [] | This is the perk, I had to start
+0.0% | [] | Thank you. Bye.
+0.0% | [] | Bye.
+0.0% | [] | Bye. Bye.
+0.0% | [] | Thank you.
+10.0% | [('irs', 100.0)] | This is IRS, calling about a...
+0.0% | [] | serious problem with your tax records.
+8.1% | [('malware detected', 81.4814814814815)] | We detected unauthorized pilings.
+10.0% | [('social security', 100.0)] | on your social security number.
+0.0% | [] | account may be subject to immediate.
+0.0% | [] | election actions to avoid arrest.
+0.0% | [] | for further penalties. Okay.
+0.0% | [] | So because the script was used.
+0.0% | [] | many keywords and
+0.0% | [] | Who like drinking about ale?
+0.0% | [] | You have to tell me what you have been doing for the past year.
+0.0% | [] | Thank you.
+0.0% | [] | TORONTO 2015 PAN AM, PARAPAN AM GAMES
+0.0% | [] | You have to say the whole script and then I have to explain it to you.
+0.0% | [] | the AI, because the keywords...
+0.0% | [] | There are not enough keywords and
+0.0% | [] | the whole, uh, whatever I spoke, right.
+0.0% | [] | did not is not is not matching
+0.0% | [] | Thank you. Thank you.
+0.0% | [] | Hello.
+10.0% | [('irs', 100.0)] | This is the IRS calling.
+0.0% | [] | about a serious problem with your tax record.
+8.1% | [('malware detected', 81.4814814814815)] | We detected unauthorized...
+10.0% | [('social security', 100.0)] | filing on your social security number.
+0.0% | [] | account may be subject to immediate collection.
+0.0% | [] | actions to avoid arrest or for
+26.2% | [('verify your identity', 100.0), ('otp', 80.0), ('verify your order', 82.35294117647058)] | other penalties, we need to verify your identity.
+0.0% | [] | entity and resolve this now.
+0.0% | [] | If you cannot confirm your details right away, we...
+0.0% | [] | may escalate this case and you may
+0.0% | [] | face serious legal consequences.
+10.0% | [('stay on the line', 100.0)] | Please stay on the line while
+26.2% | [('account verification', 80.0), ('verification code', 82.35294117647058), ('urgent', 100.0)] | while we walk you through the urgent verification steps.
+0.0% | [] | Thank you. Thank you. Thank you.
+0.0% | [] | Thank you.
+10.0% | [('bank security', 100.0)] | and alert from your bank security team.
+8.1% | [('malware detected', 81.4814814814815)] | we detected an unusual sign in
+0.0% | [] | to your online account from a new device.
+0.0% | [] | To keep your account safe, please stay home.
+8.1% | [('stay on the line', 81.4814814814815)] | on the line while we verify recent actives.
+0.0% | [] | We will provide instructions on how to do that.
+0.0% | [] | and how to secure your account and follow up.
+0.0% | [] | with an email summarizing the steps we took.
+0.0% | [] | Thank you.
+0.0% | [] | Okay.

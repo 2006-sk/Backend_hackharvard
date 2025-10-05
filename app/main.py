@@ -264,7 +264,7 @@ def voice():
     """TwiML endpoint for Twilio voice calls"""
     twiml = """<?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Say>Hello! This is ScamShield AI. I'm analyzing your call for potential scam indicators. Please speak normally.</Say>
+    <Say>Hello! This is ScamShield AI. I'm will be analyzing your call for potential scam indicators.</Say>
     <Start>
         <Stream url="wss://submammary-correlatively-irma.ngrok-free.dev/media" />
     </Start>
@@ -1300,6 +1300,44 @@ async def disconnect_call(session_id: str):
                 "active_stream": current_stream_sid
             }
         
+        # Try to disconnect via Twilio API if credentials are available
+        call_to_hangup = None
+        try:
+            import os
+            from twilio.rest import Client
+            
+            account_sid = os.getenv('TWILIO_ACCOUNT_SID')
+            auth_token = os.getenv('TWILIO_AUTH_TOKEN')
+            
+            if account_sid and auth_token and account_sid != 'your_twilio_account_sid_here':
+                # Initialize Twilio client
+                client = Client(account_sid, auth_token)
+                
+                # Find and hang up the call using the stream SID
+                calls = client.calls.list(limit=50)  # Get recent calls
+                
+                for call in calls:
+                    # Check if this call has our stream SID in its metadata or properties
+                    if hasattr(call, 'stream_sid') and call.stream_sid == session_id:
+                        call_to_hangup = call
+                        break
+                    # Alternative: check if the session_id matches the call SID
+                    elif call.sid == session_id:
+                        call_to_hangup = call
+                        break
+                
+                if call_to_hangup:
+                    # Hang up the call
+                    call_to_hangup.update(status='completed')
+                    logger.info(f"📞 Twilio call {call_to_hangup.sid} hung up successfully")
+                else:
+                    logger.warning(f"⚠️ Could not find Twilio call for stream {session_id}")
+            else:
+                logger.info("⚠️ Twilio credentials not configured - using local disconnect only")
+                
+        except Exception as twilio_error:
+            logger.warning(f"⚠️ Twilio API error: {twilio_error} - using local disconnect only")
+        
         # Clean up the stream from audio bridge
         bridge.cleanup_stream(session_id)
         
@@ -1315,7 +1353,8 @@ async def disconnect_call(session_id: str):
         return {
             "success": True,
             "message": f"Call {session_id} disconnected successfully",
-            "session_id": session_id
+            "session_id": session_id,
+            "twilio_disconnected": call_to_hangup is not None
         }
         
     except Exception as e:

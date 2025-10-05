@@ -22,3 +22,4 @@ huggingface-hub==0.13.4
 torch==2.0.1
 scikit-learn
 numpy
+twilio==8.10.0
