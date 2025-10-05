@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.env
+venv/
+lib/
+bin/
+include/
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+.env.local
+.env.production
+
+# Audio / Temp Files
+*.wav
+audio/
+scamshield.db
+
+# OS
+.DS_Store
+
